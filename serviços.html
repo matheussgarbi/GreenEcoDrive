@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenEcoDrive - Consultoria ESG e Carbono Zero</title>
+  <link rel="stylesheet" href="css/teste_honda_styles.css">
+</head>
+
+<style>
+/* Estilos Gerais */
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #a8a8a8;
+  }
+  
+  /* Estilos do Cabeçalho */
+  header {
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 2px 4px #36d90d;
+  
+  }
+  
+  header img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul a:hover {
+    color: #36d90d;
+  }
+  
+  /* Estilos para o botão de destaque */
+  .botao-destaque {
+    background-color: #36d90d;
+    color: #145106;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-destaque:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilos do Hero */
+  .hero {
+    background-image: url('img/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .hero a {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero a:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Estilos dos Serviços */
+  .services {
+    padding: 50px 0;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .services-container article {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .services-container article h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .services-container article p {
+    line-height: 1.5;
+  }
+  
+  /* Estilos da Calculadora */
+  .calculator {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .calculator h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .calculator p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #carbon-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  #carbon-calculator select,
+  #carbon-calculator input[type="number"],
+  #carbon-calculator button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #carbon-calculator button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #carbon-calculator button:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Estilos do Rodapé */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+</style>
+
+<body>
+  <header>
+    <img src="img/green2.0.png" alt="Logo Honda">
+    <h1>GreenEcoDrive - Consultoria ESG e Carbono Zero</h1>
+    <nav>
+      <ul>
+        <li><a href="file:///C:/Users/User/Desktop/trabalhos%20facul/prototipo%20vsc/teste_honda.html">Home</a></li>        
+        <li><a href="file:///C:/Users/User/Desktop/trabalhos%20facul/prototipo%20vsc/servi%C3%A7os.html">Serviços</a></li>
+        <li><a href="file:///C:/Users/User/Desktop/trabalhos%20facul/prototipo%20vsc/contatos.html">Contato</a></li>
+        <li><a href="file:///C:/Users/User/Desktop/trabalhos%20facul/prototipo%20vsc/calculadora.html">Calculadora</a></li>
+        <li> <a href="file:///C:/Users/User/Desktop/trabalhos%20facul/formulario%202.0/formulario%202.0.html" class="botao-destaque">Ajude-nos</a> 
+      </ul>
+    </nav>
+  </header>
+  
+   <section class="services">
+    <h2>Nossos Serviços</h2>
+    <div class="services-container">
+      <article>
+        <h3>Auditoria Ambiental</h3>
+			<p>Realizamos auditorias detalhadas para identificar e avaliar os impactos ambientais das atividades tecnológicas. Nossas auditorias fornecem um panorama completo, destacando oportunidades para reduzir o consumo de energia, minimizar emissões de poluentes e melhorar a gestão de resíduos.</p>
+			
+				<p>Realizamos auditorias detalhadas para identificar e avaliar os impactos ambientais das atividades tecnológicas. </p>
+				<p>Nossas auditorias fornecem um panorama completo, destacando oportunidades para reduzir o consumo de energia, minimizar emissões de poluentes e melhorar a gestão de resíduos.</p>
+				<p>Os principais objetivos de uma auditoria ambiental incluem:</p>
+
+			<ul>
+				<li>Conformidade Legal: Verificar se a organização está cumprindo todas as leis e regulamentações ambientais aplicáveis.</li>
+				<li>Identificação de Riscos: Identificar potenciais riscos ambientais que podem resultar em danos ao meio ambiente ou em sanções legais.</li>
+				<li>Oportunidades de Melhoria: Sugerir melhorias nos processos e práticas ambientais para aumentar a eficiência e a sustentabilidade.</li>
+				<li>Redução de Impactos Ambientais: Implementar medidas que minimizem os impactos negativos ao meio ambiente.</li>
+				<li>Aprimoramento da Imagem Corporativa: Demonstrar compromisso com a responsabilidade ambiental e melhorar a reputação da organização perante clientes, investidores e a sociedade.</li>
+			</ul>
+    </article>
+	
+      <article>
+			<h3>Estratégia ESG</h3>
+			<p>Nosso trabalho se concentra em reduzir a pegada de carbono de empresas e organizações, promovendo o uso eficiente de recursos e tecnologias limpas. Oferecemos uma ampla gama de serviços para ajudar nossos clientes a operar de maneira mais sustentável, desde auditorias ambientais até a implementação de fontes de energia renováveis.</p>
+  
+			<p>Nossa abordagem ESG (Environmental, Social and Governance) busca integrar considerações ambientais, sociais e de governança nos negócios e operações de nossos clientes. Isso envolve:</p>
+  
+	<ul>
+			<li>Avaliação de Riscos e Oportunidades: Identificação e análise dos riscos e oportunidades associados às práticas ambientais, sociais e de governança das empresas.</li>
+			<li>Desenvolvimento de Estratégias: Elaboração de planos estratégicos personalizados para melhorar o desempenho ESG das organizações, incluindo metas de redução de emissões de carbono e implementação de práticas sustentáveis.</li>
+			<li>Implementação de Práticas Sustentáveis: Apoio na implementação de medidas e iniciativas para reduzir o impacto ambiental, promover a equidade social e garantir uma governança transparente e ética.</li>
+			<li>Monitoramento e Relatórios: Acompanhamento contínuo do progresso e desempenho ESG das empresas, bem como relatórios transparentes e precisos para partes interessadas.</li>
+			<li>Engajamento com Stakeholders: Promoção do diálogo e engajamento com partes interessadas, incluindo investidores, clientes, funcionários e comunidades, para garantir a responsabilidade e transparência nas práticas empresariais.</li>
+	</ul>
+  
+			<p>Nossa estratégia ESG visa não apenas mitigar os impactos negativos das operações empresariais, mas também criar valor a longo prazo, promovendo a sustentabilidade ambiental, social e econômica.</p>
+	</article>
+
+	 <article>
+        <h3>Redução de Emissões</h3>
+        <p>Desenvolvemos estratégias personalizadas para reduzir as emissões de carbono, abordando desde a eficiência energética até a transição para fontes de energia renováveis.</p>
+  
+  <p>Nossas estratégias personalizadas focam em:</p>
+  
+  <ul>
+    <li>Eficiência Energética: Melhorar o uso de energia para reduzir o consumo e as emissões de carbono associadas.</li>
+    <li>Fontes de Energia Renováveis: Facilitar a transição para fontes de energia renováveis, como solar e eólica, para diminuir a dependência de combustíveis fósseis.</li>
+    <li>Práticas Sustentáveis: Implementar práticas que diminuam significativamente a pegada de carbono das operações dos nossos clientes.</li>
+    <li>Educação e Treinamento: Oferecer programas de treinamento para colaboradores sobre como adotar práticas sustentáveis no dia a dia.</li>
+    <li>Monitoramento e Avaliação: Fornecer ferramentas para monitorar e avaliar continuamente as emissões de carbono, permitindo ajustes e melhorias constantes.</li>
+  </ul>
+  
+  <p>Ajudamos nossos clientes a implementar práticas que diminuam significativamente sua pegada de carbono.</p>
+</article>
+      </article>
+     
+	 <article>
+	<h3>Consultoria em Sustentabilidade</h3>
+	<p>Oferecemos consultoria especializada para integrar práticas sustentáveis nas operações diárias das empresas. Nosso trabalho inclui a elaboração de políticas ambientais, a formação de colaboradores em práticas sustentáveis e o suporte na obtenção de certificações ambientais.</p>
+  
+	<p>Nossa consultoria em sustentabilidade abrange os seguintes aspectos:</p>
+  
+  <ul>
+    <li>Políticas Ambientais: Desenvolver e implementar políticas ambientais que alinhem as operações empresariais com os objetivos de sustentabilidade.</li>
+    <li>Formação de Colaboradores: Oferecer programas de treinamento e capacitação para educar os colaboradores sobre práticas sustentáveis e sua importância.</li>
+    <li>Certificações Ambientais: Auxiliar as empresas na obtenção de certificações ambientais reconhecidas, como ISO 14001, que demonstram o compromisso com a sustentabilidade.</li>
+    <li>Análise de Sustentabilidade: Realizar avaliações detalhadas para identificar áreas de melhoria e oportunidades para implementar práticas mais sustentáveis.</li>
+    <li>Engajamento de Stakeholders: Promover o envolvimento de todos os stakeholders, incluindo clientes, fornecedores e comunidade, em iniciativas de sustentabilidade.</li>
+    <li>Relatórios de Sustentabilidade: Elaborar relatórios de sustentabilidade que destacam as ações e os resultados das iniciativas ambientais da empresa.</li>
+  </ul>
+  
+  <p>Nosso objetivo é ajudar as empresas a integrar a sustentabilidade em todos os aspectos de suas operações, promovendo um impacto positivo no meio ambiente e na sociedade.</p>
+</article>
+
+	  
+	   <article>
+        <h3> Implementação de Tecnologias Limpas</h3>
+		<p>Auxiliamos nossos clientes na adoção de tecnologias limpas e renováveis, como energia solar e eólica. Também promovemos a utilização de veículos elétricos e a modernização de infraestruturas para aumentar a eficiência energética e reduzir emissões de gases de efeito estufa.</p>
+  
+		<p>Nossos serviços de implementação de tecnologias limpas incluem:</p>
+  
+	<ul>
+		<li>Avaliação de Tecnologias: Identificação das tecnologias limpas mais adequadas às necessidades específicas de cada cliente.</li>
+		<li>Instalação e Integração: Suporte na instalação e integração de sistemas de energia solar, eólica e outras fontes renováveis.</li>
+		<li>Adoção de Veículos Elétricos: Orientação na escolha e adoção de veículos elétricos para frota empresarial ou uso pessoal.</li>
+		<li>Modernização de Infraestruturas: Atualização e modernização de infraestruturas para torná-las mais eficientes e sustentáveis.</li>
+		<li>Otimização de Processos: Implementação de práticas e processos para reduzir o consumo de energia e aumentar a eficiência operacional.</li>
+		<li>Monitoramento e Manutenção: Serviços de monitoramento e manutenção para garantir o desempenho contínuo das tecnologias limpas instaladas.</li>
+	</ul>
+  
+		<p>Nossa abordagem visa não apenas implementar tecnologias limpas, mas também garantir sua integração eficaz e maximizar os benefícios ambientais e econômicos para nossos clientes.</p>
+      </article>
+	    
+	<article>
+		<h3>Preservação de Recursos Naturais</h3>
+		<p>Promovemos a extração e o uso sustentáveis de recursos naturais, buscando minimizar a degradação ambiental e o esgotamento de recursos. Nossas estratégias incluem a reutilização de materiais e a escolha de fornecedores comprometidos com práticas sustentáveis.</p>
+  
+		<p>Nossas ações de preservação de recursos naturais abrangem diversas áreas, incluindo:</p>
+  
+	<ul>
+		<li>Extração Sustentável: Adoção de práticas de extração que garantam a renovação e preservação dos recursos naturais a longo prazo.</li>
+		<li>Uso Responsável: Promoção de práticas responsáveis de uso dos recursos naturais, visando a minimização do desperdício e a otimização do uso eficiente.</li>
+		<li>Reutilização de Materiais: Estímulo à reutilização e reciclagem de materiais, reduzindo a demanda por novos recursos e minimizando o impacto ambiental.</li>
+		<li>Escolha de Fornecedores Sustentáveis: Seleção criteriosa de fornecedores comprometidos com práticas sustentáveis, incentivando toda a cadeia de suprimentos a adotar medidas ambientalmente responsáveis.</li>
+		<li>Conservação de Ecossistemas: Implementação de ações para conservar e proteger ecossistemas naturais, preservando a biodiversidade e os serviços ecossistêmicos.</li>
+		<li>Engajamento Comunitário: Envolvimento da comunidade local em iniciativas de preservação e conservação dos recursos naturais, promovendo a conscientização e participação ativa.</li>
+	</ul>
+  
+		<p>Nossa abordagem visa não apenas preservar os recursos naturais, mas também promover o desenvolvimento sustentável e garantir um futuro mais equilibrado e resiliente para as gerações presentes e futuras.</p>
+	</article>
+
+	  
+    </div>
+  </section>
+  </body>
+ 
+ <footer>
+    <p>EcoDrive & Honda &copy; 2024</p>
+  </footer>

@@ -1,0 +1,197 @@
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #a8a8a8;
+  }
+  
+  
+  header {
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 2px 4px #36d90d;
+  
+  }
+  
+  header img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul a:hover {
+    color: #36d90d;
+  }
+  
+ 
+  .botao-destaque {
+    background-color: #36d90d;
+    color: #145106;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botao-destaque:hover {
+    background-color: #f1f1f1;
+  }
+  
+ 
+  .hero {
+    background-image: url('../img/gifeolica.gif');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .hero a {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero a:hover {
+    background-color: #1976d2;
+  }
+  
+  
+  .services {
+    padding: 50px 0;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .services-container article {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .services-container article h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .services-container article p {
+    line-height: 1.5;
+  }
+  
+ 
+  .calculator {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .calculator h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .calculator p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #carbon-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  #carbon-calculator select,
+  #carbon-calculator input[type="number"],
+  #carbon-calculator button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #carbon-calculator button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #carbon-calculator button:hover {
+    background-color: #1976d2;
+  }
+  
+ 
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
